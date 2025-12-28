@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Backup and generated files
+*.bak
+*redirects*.*
+categories_summary.*
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

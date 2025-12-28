@@ -1,0 +1,17 @@
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif}
+body{margin:0;padding:24px;background:#0f1720;color:#e6eef8}
+header{margin-bottom:18px}
+h1{margin:0;font-size:1.6rem}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.controls input, .controls select{padding:8px;border-radius:6px;border:1px solid #293241;background:#0b1220;color:#e6eef8}
+.controls button{padding:8px 12px;border-radius:6px;border:none;background:#2b8cff;color:white;cursor:pointer}
+.count{margin:8px 0;color:#9fb3d6}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:#0b1220;border:1px solid #1f2a37;padding:12px;border-radius:8px}
+.card h3{margin:0 0 6px 0}
+.card p{margin:0 0 8px 0;color:#b7c7db;font-size:0.95rem}
+.card .meta{font-size:0.85rem;color:#86a0c9;margin-bottom:8px}
+.card .actions{display:flex;gap:8px}
+.card .actions a, .card .actions button{padding:6px 8px;border-radius:6px;border:none;background:#16324b;color:#dff0ff;text-decoration:none;cursor:pointer}
+footer{margin-top:24px;color:#9fb3d6}
+@media (max-width:520px){body{padding:12px}}
